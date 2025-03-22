@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif; /* Sets the font family for the page */
+    background-color: white; /* Sets the background color of the page */
+    color: black; /* Sets the default text color */
+    direction: rtl; /* Ensures the layout is right-to-left for Arabic text */
+    text-align: right; /* Aligns text to the right */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px; /* Limits the width of the container */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px; /* Adds padding inside the container */
+}
+
+header {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Spaces items evenly */
+    align-items: center; /* Aligns items vertically in the center */
+    margin-bottom: 20px; /* Adds space below the header */
+}
+
+.decorative-design {
+    width: 50px; /* Sets the width of the decorative image */
+    height: 50px; /* Sets the height of the decorative image */
+    background-image: url('your-image-url-here'); /* Placeholder for the image URL */
+    background-size: cover; /* Ensures the image covers the element */
+}
+
+.current-time {
+    font-size: 14px; /* Sets the font size for the time */
+    color: grey; /* Sets the text color for the time */
+}
+
+main {
+    text-align: right; /* Aligns content to the right */
+}
+
+h1 {
+    font-size: 22px; /* Sets the font size of the main heading */
+    color: black; /* Sets the text color of the heading */
+}
+
+p {
+    font-size: 16px; /* Sets the font size of the paragraph text */
+    margin-bottom: 20px; /* Adds space below the paragraph */
+}
+
+form input {
+    width: 100%; /* Sets input fields to full width */
+    padding: 10px; /* Adds padding inside the input fields */
+    margin-bottom: 10px; /* Adds space between input fields */
+    border: 1px solid grey; /* Adds a border to the input fields */
+    border-radius: 5px; /* Rounds the corners of the input fields */
+}
+
+form button {
+    width: 100%; /* Sets the button to full width */
+    padding: 10px; /* Adds padding inside the button */
+    background-color: green; /* Sets the button background color */
+    color: white; /* Sets the button text color */
+    border: none; /* Removes the button border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    font-size: 16px; /* Sets the font size of the button text */
+}
+
+a.forgot-password {
+    display: block; /* Ensures the link takes a full block */
+    margin-top: 10px; /* Adds space above the link */
+    text-decoration: none; /* Removes underline from the link */
+    color: green; /* Sets the color of the link */
+}
