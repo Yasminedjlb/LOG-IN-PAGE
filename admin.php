@@ -1,4 +1,4 @@
--- إنشاء قاعدة البيانات باسم الجمعية مع دعم اللغة العربية
+
 CREATE DATABASE IF NOT EXISTS جمعية_العلماء CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE جمعية_العلماء;
 
@@ -15,7 +15,6 @@ CREATE TABLE IF NOT EXISTS المستخدمين (
     تاريخ_التسجيل TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- جدول الصلاحيات الخاصة بكل مستخدم
 CREATE TABLE IF NOT EXISTS صلاحيات_المستخدم (
     معرف INT AUTO_INCREMENT PRIMARY KEY,
     معرف_المستخدم INT NOT NULL,
